@@ -8,12 +8,16 @@ class String
     else
       return false
   end
-end
 
 
   def question?
-
+    if self.end_with?("?")
+      return TRUE
+    else
+      return false
   end
+end
+
 
   def exclamation?
 
