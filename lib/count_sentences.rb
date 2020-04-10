@@ -29,6 +29,7 @@ end
 
 
   def count_sentences
+    if self.count_sentences
 
   end
 end
