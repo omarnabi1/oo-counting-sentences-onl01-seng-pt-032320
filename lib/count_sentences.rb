@@ -6,7 +6,7 @@ class String
     if self.end_with?("!")
       put TRUE
     else
-      
+      return false
   end
 end
 
