@@ -3,8 +3,8 @@ require 'pry'
 class String
 
   def sentenc
-    self.end_with?("!")
-    
+    if self.end_with?("!")
+      put TRUE
   end
 
   def question?
