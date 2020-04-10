@@ -6,6 +6,8 @@ class String
     if self.end_with?("!")
       put TRUE
   end
+end
+
 
   def question?
 
