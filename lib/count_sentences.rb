@@ -5,6 +5,8 @@ class String
   def sentenc
     if self.end_with?("!")
       put TRUE
+    else
+      
   end
 end
 
